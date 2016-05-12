@@ -1,0 +1,10 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "root": true,
+  "rules": {
+  	"strict": 0,
+    "indent": ["error", "tab"],
+    "prefer-arrow-callback": ["error", { "allowNamedFunctions": true }],
+  }
+}

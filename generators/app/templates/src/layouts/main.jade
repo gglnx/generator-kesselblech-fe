@@ -1,0 +1,24 @@
+doctype html
+html(lang="de")
+	//- Head
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="x-ua-compatible", content="ie=edge")
+
+		title Frontend
+
+		link(rel="stylesheet", href="/stylesheets/main.css")
+
+	//- Body
+	body
+		//- Content
+		block content
+
+		//- SVG icons
+		div(style="height: 0; width:0; position: absolute; visibility: hidden; overflow: hidden; display: none;")
+			// inject:svg
+			// endinject
+
+		//- Scripts
+		script(src="/javascripts/app.js")
